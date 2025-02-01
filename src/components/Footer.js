@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer className="bg-purple-600 text-white p-4 text-center">
-            <div className="Contact">
+            <div className="Contact" id="contact">
                 <a href="https://github.com/NishanthTheRealOne">
                     <img src="/images/github-mark.png" alt="github icon" className="w-full h-full" />
                 </a>
