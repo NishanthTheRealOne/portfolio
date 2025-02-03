@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import styles from './ModalProjectDetails.module.css';
 
 function ModalProjectDetails({ isOpen, onClose, title, description, image, link, technologies, skills }) {
   const modalRef = useRef();
@@ -22,45 +23,53 @@ function ModalProjectDetails({ isOpen, onClose, title, description, image, link,
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div ref={modalRef} className="bg-white rounded-lg p-6 max-w-2xl w-full m-4">
-        <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-bold">{title}</h2>
+    <div className={styles.overlay}>
+      <div ref={modalRef} className={styles.modal}>
+        <div className={styles.header}>
+          <h2 className={styles.title}>{title}</h2>
           <button
             onClick={onClose}
-            className="text-gray-500 hover:text-gray-700"
+            className={styles.closeButton}
           >
             ✕
           </button>
         </div>
-        {image && (
-          <img
-            src={image}
-            alt={title}
-            className="w-full h-64 object-cover rounded mb-4"
-          />
-        )}
-        <p className="text-gray-700 mb-4">{description}</p>
-        <div className="mb-4">
-          <h3 className="font-bold mb-2">Technologies :</h3>
-          <div className="flex flex-wrap gap-2">
+        <div className={styles.content}>
+          {image && (
+            <img
+              src={image}
+              alt={title}
+              className={styles.image}
+            />
+          )}
+          <p className={styles.description}>{description}</p>
+          <p className={styles.technologies}>Compétences développées : </p>
+          <div className={styles.technologies}>
+            {skills?.map((skill, index) => (
+              <span key={index} className={styles.tech}>
+                {skill}
+              </span>
+            ))}
+          </div>
+          <p className={styles.techLabel}>Technologies utilisées : </p>
+          <div className={styles.technologies}>
             {technologies?.map((tech, index) => (
-              <span key={index} className="bg-pink-100 text-pink-800 px-2 py-1 rounded">
+              <span key={index} className={styles.tech}>
                 {tech}
               </span>
             ))}
           </div>
+          {link && (
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.link}
+            >
+              Voir le projet
+            </a>
+          )}
         </div>
-        {link && (
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700"
-          >
-            Voir le projet
-          </a>
-        )}
       </div>
     </div>
   );

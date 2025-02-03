@@ -1,0 +1,71 @@
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e2e8f0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+}
+
+.image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.content {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    color: #718096;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+    flex-grow: 1;
+}
+
+.techContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: auto;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.techBadge {
+    background-color: #AC92DD;
+    color: white;
+    padding: 0.15rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+}

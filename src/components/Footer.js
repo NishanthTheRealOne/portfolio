@@ -1,21 +1,23 @@
+import styles from './Footer.module.css';
+
 const Footer = () => {
     return (
         <footer className="bg-purple-600 text-white p-4 text-center">
-            <div className="Contact" id="contact">
-                <a href="https://github.com/NishanthTheRealOne">
-                    <img src="/images/github-mark.png" alt="github icon" className="w-full h-full" />
+            {/* the "target=_blank" attribute make the link to open in a new tab */}
+            <div className={styles.contact} id="contact">
+                <a href="https://github.com/NishanthTheRealOne" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
+                    <img src="/images/github-mark.png" alt="github icon" className={styles.socialIcon} />
                 </a>
-                <a href="mailto:nsriniv37@gmail.com">
-                    <img src="/images/icons8-gmail-48.png" alt="gmail icon" className="w-full h-full" />
+                <a href="mailto:nsriniv37@gmail.com" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
+                    <img src="/images/icons8-gmail-48.png" alt="gmail icon" className={styles.socialIcon} />
                 </a>
-                <a href="https://www.linkedin.com/in/nishanth-srinivassane-4083a6297/">
-                    <img src="/images/icons8-linkedin-48.png" alt="linkedin icon" className="w-full h-full" />
+                <a href="https://www.linkedin.com/in/nishanth-srinivassane-4083a6297/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
+                    <img src="/images/icons8-linkedin-48.png" alt="linkedin icon" className={styles.socialIcon} />
                 </a>
             </div>
-            <div className="text-sm mt-4">
+            <div className={styles.credits}>
                 <p>Crédits des images</p>
-                <a target="_blank" href="https://icons8.com/icon/P7UIlhbpWzZm/gmail">Gmail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-                <a target="_blank" href="https://icons8.com/icon/13930/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://icons8.com">Icons8</a>
             </div>
         </footer>
     );
