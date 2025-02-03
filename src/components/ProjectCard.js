@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ModalProjectDetails from './ModalProjectDetails';
 
-function ProjectCard({ title, description, image, link, technologies, shortDescription }) {
+function ProjectCard({ title, description, image, link, technologies, skills, shortDescription }) {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -10,9 +10,9 @@ function ProjectCard({ title, description, image, link, technologies, shortDescr
       onClick={() => setShowModal(true)}
     >
       {image && (
-        <img 
-          src={image} 
-          alt={title} 
+        <img
+          src={image}
+          alt={title}
           className="w-full h-48 object-cover"
         />
       )}
@@ -28,12 +28,13 @@ function ProjectCard({ title, description, image, link, technologies, shortDescr
         </div>
       </div>
       {showModal && (
-        <ModalProjectDetails 
-          title={title} 
+        <ModalProjectDetails
+          title={title}
           description={description}
           image={image}
           link={link}
           technologies={technologies}
+          competences={skills}
           closeModal={() => setShowModal(false)}
         />
       )}

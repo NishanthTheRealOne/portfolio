@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ModalProjectDetails({ title, description, image, link, technologies, closeModal }) {
+function ModalProjectDetails({ title, description, image, link, technologies, skills, closeModal }) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg max-w-2xl w-full p-6 relative">
@@ -15,11 +15,22 @@ function ModalProjectDetails({ title, description, image, link, technologies, cl
           <img src={image} alt={title} className="w-full h-64 object-cover rounded mb-4" />
         )}
         <p className="text-gray-600 mb-4">{description}</p>
+        <p className="text-gray-600 mb-4">Technologies utilisées :</p>
         {technologies && (
           <div className="flex flex-wrap gap-2 mb-4">
             {technologies.map((tech, index) => (
               <span key={index} className="bg-pink-100 text-pink-800 px-2 py-1 rounded">
                 {tech}
+              </span>
+            ))}
+          </div>
+        )}
+        <p className="text-gray-600 mb-4">Compétences acquises :</p>
+        {skills && (
+          <div className="flex flex-wrap gap-2 mb-4">
+            {skills.map((skill, index) => (
+              <span key={index} className="bg-pink-100 text-pink-800 px-2 py-1 rounded">
+                {skill}
               </span>
             ))}
           </div>
