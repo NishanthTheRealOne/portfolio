@@ -1,11 +1,11 @@
 export const projects = [
     {
-        title: 'Projet 1',
-        description: 'Description détaillée du projet 1',
-        image: '/images/projet1.jpg',
+        title: 'Le GoodiesEX',
+        description: 'Le GoodiesEX est un site web recensant l\'ensemble des goodies produits par des associations lyonnaises. On peut y renseigner les goodies que l\'on possède, indiquer qu\'on souhaite les échanger et découvrir de nouveaux goodies.',
+        image: require('../images/projet1.png'),
         link: 'https://github.com/yourusername/project1',
-        technologies: ['React', 'Node.js', 'MongoDB'],
-        shortDescription: 'Description courte du projet 1'
+        technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'SQL'],
+        shortDescription: 'Un site web pour avoir un suivi de ses goodies.'
     },
     {
         title: 'Projet 2',
