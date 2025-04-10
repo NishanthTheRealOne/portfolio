@@ -1,17 +1,45 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fb21a478.css",
-    "main.js": "/portfolio/static/js/main.86f2ac5c.js",
+    "main.css": "/portfolio/static/css/main.374a8052.css",
+    "main.js": "/portfolio/static/js/main.f9679128.js",
     "static/media/projectMartinTransportDoux.png": "/portfolio/static/media/projectMartinTransportDoux.75fe1e3a59df4604ee12.png",
     "static/media/projectGoodiesEX.png": "/portfolio/static/media/projectGoodiesEX.a980b23e0f7cdf925883.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.229707f70246fda042f5.png",
     "static/media/projectFlight.png": "/portfolio/static/media/projectFlight.6aecafd9c7b38dfcfb5a.png",
+    "static/media/dawn.png": "/portfolio/static/media/dawn.dfdb519721ad4d03abec.png",
     "static/media/projectPortfolio.png": "/portfolio/static/media/projectPortfolio.b5b736f4610d58b8e999.png",
+    "static/media/portrait.jpg": "/portfolio/static/media/portrait.17b2f93332a75d9011ec.jpg",
+    "static/media/orvLogo.jpg": "/portfolio/static/media/orvLogo.abc68b98b25e7f9c62ac.jpg",
+    "static/media/jetbrains-mono-latin-400-normal.woff": "/portfolio/static/media/jetbrains-mono-latin-400-normal.0fc70aa4dfe4d16d7073.woff",
+    "static/media/jetbrains-mono-latin-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-latin-400-normal.d04352f240062b100fba.woff2",
+    "static/media/space-grotesk-latin-400-normal.woff": "/portfolio/static/media/space-grotesk-latin-400-normal.66111bd6c741353872d0.woff",
+    "static/media/space-grotesk-latin-ext-400-normal.woff": "/portfolio/static/media/space-grotesk-latin-ext-400-normal.f9e869e161d5f69c3488.woff",
+    "static/media/space-grotesk-latin-ext-700-normal.woff": "/portfolio/static/media/space-grotesk-latin-ext-700-normal.60bdf4cbe6f46755f6fa.woff",
+    "static/media/space-grotesk-latin-700-normal.woff": "/portfolio/static/media/space-grotesk-latin-700-normal.a0b3e4b78f99d382a97d.woff",
+    "static/media/space-grotesk-latin-400-normal.woff2": "/portfolio/static/media/space-grotesk-latin-400-normal.f18f0615094969652b7e.woff2",
+    "static/media/space-grotesk-latin-700-normal.woff2": "/portfolio/static/media/space-grotesk-latin-700-normal.a52417d5601294dd1e37.woff2",
+    "static/media/space-grotesk-latin-ext-400-normal.woff2": "/portfolio/static/media/space-grotesk-latin-ext-400-normal.4889d1dd083666be481f.woff2",
+    "static/media/space-grotesk-latin-ext-700-normal.woff2": "/portfolio/static/media/space-grotesk-latin-ext-700-normal.b40ed7a6c4733fbbac9f.woff2",
+    "static/media/jetbrains-mono-latin-ext-400-normal.woff": "/portfolio/static/media/jetbrains-mono-latin-ext-400-normal.8cef58685fa3e568038c.woff",
+    "static/media/jetbrains-mono-latin-ext-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-latin-ext-400-normal.e83b764e84e73968db26.woff2",
+    "static/media/jetbrains-mono-cyrillic-400-normal.woff": "/portfolio/static/media/jetbrains-mono-cyrillic-400-normal.5b36ec97fd93af26fc0c.woff",
+    "static/media/space-grotesk-vietnamese-400-normal.woff": "/portfolio/static/media/space-grotesk-vietnamese-400-normal.805a3674b452420960bd.woff",
+    "static/media/jetbrains-mono-greek-400-normal.woff": "/portfolio/static/media/jetbrains-mono-greek-400-normal.449c5e33a2bb82fa67e2.woff",
+    "static/media/space-grotesk-vietnamese-700-normal.woff": "/portfolio/static/media/space-grotesk-vietnamese-700-normal.499e5d15f63548664580.woff",
+    "static/media/jetbrains-mono-vietnamese-400-normal.woff": "/portfolio/static/media/jetbrains-mono-vietnamese-400-normal.fac3ebe1fb24270f2e31.woff",
+    "static/media/jetbrains-mono-cyrillic-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-cyrillic-400-normal.f69e1e24f04a6ce942c0.woff2",
+    "static/media/space-grotesk-vietnamese-400-normal.woff2": "/portfolio/static/media/space-grotesk-vietnamese-400-normal.43e406db4c9673e64b16.woff2",
+    "static/media/jetbrains-mono-greek-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-greek-400-normal.3a4578ae9901384175e2.woff2",
+    "static/media/space-grotesk-vietnamese-700-normal.woff2": "/portfolio/static/media/space-grotesk-vietnamese-700-normal.d961758c27eb1a21c68b.woff2",
+    "static/media/jetbrains-mono-vietnamese-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-vietnamese-400-normal.aa664ef15f2e285e9dda.woff2",
+    "static/media/jetbrains-mono-cyrillic-ext-400-normal.woff": "/portfolio/static/media/jetbrains-mono-cyrillic-ext-400-normal.fe91ef32cce4c8826b65.woff",
+    "static/media/jetbrains-mono-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-cyrillic-ext-400-normal.7347c7bfed47f1ef0b25.woff2",
     "index.html": "/portfolio/index.html",
-    "main.fb21a478.css.map": "/portfolio/static/css/main.fb21a478.css.map",
-    "main.86f2ac5c.js.map": "/portfolio/static/js/main.86f2ac5c.js.map"
+    "main.374a8052.css.map": "/portfolio/static/css/main.374a8052.css.map",
+    "main.f9679128.js.map": "/portfolio/static/js/main.f9679128.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb21a478.css",
-    "static/js/main.86f2ac5c.js"
+    "static/css/main.374a8052.css",
+    "static/js/main.f9679128.js"
   ]
 }
