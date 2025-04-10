@@ -3,12 +3,11 @@ import styles from './Introduction.module.css';
 export const Introduction = () => {
     return (
         <div className={styles.container} id="introduction">
+            <div className={styles.orvLogoContainer}>
+                <img src={require("../images/orvLogo.jpg")} alt="Logo ORV" className={styles.orvLogo} />
+            </div>
             <h1 className={styles.heading}>Qui suis-je ?</h1>
             <div className={styles.contentWrapper}>
-                <div className={styles.leftContent}>
-                    <span className={styles.arrowText}>C'est moi</span>
-                    <span className={styles.arrow}>→</span>
-                </div>
                 <div className={styles.imageContainer}>
                     <img
                         src={require('../images/portrait.jpg')}
@@ -17,7 +16,6 @@ export const Introduction = () => {
                     />
                 </div>
                 <p className={styles.description}>
-
                     Moi c'est Nishanth Srinivassane, étudiant en Informatique et bienvenue
                     sur mon site web.
                     Vous trouverez, ici, mes projets et un aperçu de mes compétences et de ce
@@ -30,4 +28,5 @@ export const Introduction = () => {
         </div>
     );
 };
+
 export default Introduction;

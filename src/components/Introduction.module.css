@@ -1,12 +1,35 @@
 .container {
-    max-width: 800px;
+    max-width: 50rem;
     margin: 0 auto;
     padding: 4rem 2rem;
     text-align: center;
     animation: fadeIn 0.8s ease-in;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+
+.orvLogoContainer {
+    position: absolute;
+    left: -14rem;
+    top: 10rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.orvLogoContainer:hover {
+    opacity: 1;
+}
+
+.orvLogo {
+    width: 12.5rem; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+
 
 .heading {
     color: #2D3748;
@@ -30,9 +53,9 @@
 }
 
 .image {
-    max-width: 200px;
+    max-width: 12.5rem;
     height: auto;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .description {
@@ -43,28 +66,10 @@
     text-align: left;
 }
 
-.leftContent {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-right: -10px;
-}
-
-.arrowText {
-    font-size: 1.2rem;
-    color: #2D3748;
-    font-weight: 500;
-}
-
-.arrow {
-    font-size: 1.5rem;
-    color: #2D3748;
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(1.25rem);
     }
     to {
         opacity: 1;
