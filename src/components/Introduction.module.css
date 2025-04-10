@@ -4,6 +4,8 @@
     padding: 4rem 2rem;
     text-align: center;
     animation: fadeIn 0.8s ease-in;
+    display: flex;
+    flex-direction: column;
 }
 
 .heading {
@@ -11,28 +13,52 @@
     margin-bottom: 2rem;
     position: relative;
     display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
-.heading::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 25%;
-    width: 50%;
-    height: 3px;
-    transition: width 0.3s ease;
+.contentWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
 }
 
-.heading:hover::after {
-    width: 75%;
+.imageContainer {
+    flex: 0 0 auto;
+    margin-right: 2rem;
+}
+
+.image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
 }
 
 .description {
+    flex: 1;
     line-height: 1.8;
     font-size: 1.1rem;
     color: black;
-    max-width: 600px;
-    margin: 0 auto;
+    text-align: left;
+}
+
+.leftContent {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: -10px;
+}
+
+.arrowText {
+    font-size: 1.2rem;
+    color: #2D3748;
+    font-weight: 500;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    color: #2D3748;
 }
 
 @keyframes fadeIn {

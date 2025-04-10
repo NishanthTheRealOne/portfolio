@@ -3,7 +3,7 @@ export const projects = [
         title: 'Portfolio',
         description: 'Il s\'agit de mon portfolio. Vous êtes dessus !! Bien joué à vous !',
         image: require('../images/projectPortfolio.png'),
-        link: 'https://github.com',
+        link: 'https://github.com/NishanthTheRealOne/portfolio',
         technologies: ['HTML ', 'React.js ', 'TailwindCSS '],
         skills: ['Réaliser un développement d\'applications ', 'Conduire un projet '],
         shortDescription: 'Mon portfolio recensant mes différents projets.'
@@ -12,7 +12,7 @@ export const projects = [
         title: 'Le GoodiesEX',
         description: 'Le GoodiesEX est un site web recensant l\'ensemble des goodies produits par des associations lyonnaises. On peut y renseigner les goodies que l\'on possède, indiquer qu\'on souhaite les échanger et découvrir de nouveaux goodies.',
         image: require('../images/projectGoodiesEX.png'),
-        link: 'https://github.com/yourusername/project1',
+        link: 'https://douzhee.fr/goodiesex/',
         technologies: ['HTML ', 'CSS ', 'JavaScript ', 'PHP ', 'SQL '],
         skills: ['Réaliser un développement d\'applications ', 'Optimiser des applications ', 'Conduire un projet ', 'Collaborer au sein d\'une équipe informatique ', 'Gérer des données et de l\'information '],
         shortDescription: 'Un site web pour avoir un suivi de ses goodies.'

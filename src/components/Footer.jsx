@@ -18,7 +18,12 @@ const Footer = () => {
             <div className={styles.credits}>
                 <p>Crédits des images</p>
                 <a target="_blank" rel="noopener noreferrer" href="https://icons8.com">Icons8</a>
+                <p>
+                    Développé par Nishanth Srinivassane
+                    en React.js
+                </p>
             </div>
+
         </footer>
     );
 };

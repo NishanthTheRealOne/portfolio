@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem 0;
 }
 
 .socialLink {
@@ -27,6 +26,9 @@
 
 .credits {
     font-size: 0.875rem;
-    margin-top: 1rem;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.credits:last-child{
+    text-align: right;
 }

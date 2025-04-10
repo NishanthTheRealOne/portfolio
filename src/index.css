@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Space Grotesk', 'JetBrains Mono', sans-serif;
   background-color: #669add;
   margin: 0;
 }
@@ -9,4 +9,15 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+.background-container {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.app-container {
+  position: relative;
+  min-height: 100vh;
 }
