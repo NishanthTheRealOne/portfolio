@@ -2,7 +2,7 @@ import styles from './Footer.module.css';
 
 const Footer = () => {
     return (
-        <footer className="bg-purple-600 text-white p-4 text-center">
+        <footer className={styles.footer}>
             {/* the "target=_blank" attribute make the link to open in a new tab */}
             <div className={styles.contact} id="contact">
                 <a href="https://github.com/NishanthTheRealOne" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
@@ -16,12 +16,13 @@ const Footer = () => {
                 </a>
             </div>
             <div className={styles.credits}>
-                <p>Crédits des images</p>
-                <a target="_blank" rel="noopener noreferrer" href="https://icons8.com">Icons8</a>
                 <p>
-                    Développé par Nishanth Srinivassane
-                    en React.js
+                    Développé par Nishanth Srinivassane en React.js
                 </p>
+                <div className={styles.imagesCredits}>
+                    <p>Crédits des images : <a target="_blank" rel="noopener noreferrer" href="https://icons8.com">Icons8</a></p>
+                    
+                </div>
             </div>
 
         </footer>
