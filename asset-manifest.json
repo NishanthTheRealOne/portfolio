@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.374a8052.css",
-    "main.js": "/portfolio/static/js/main.f9679128.js",
+    "main.js": "/portfolio/static/js/main.91b3de8e.js",
     "static/media/projectMartinTransportDoux.png": "/portfolio/static/media/projectMartinTransportDoux.75fe1e3a59df4604ee12.png",
     "static/media/projectGoodiesEX.png": "/portfolio/static/media/projectGoodiesEX.a980b23e0f7cdf925883.png",
     "static/media/logo.png": "/portfolio/static/media/logo.229707f70246fda042f5.png",
+    "static/media/projectC.png": "/portfolio/static/media/projectC.95284721999ffff046e8.png",
+    "static/media/projectPortfolio.png": "/portfolio/static/media/projectPortfolio.2f68d794835afcea1378.png",
     "static/media/projectFlight.png": "/portfolio/static/media/projectFlight.6aecafd9c7b38dfcfb5a.png",
+    "static/media/CV_Srinivassane_Nishanth.pdf": "/portfolio/static/media/CV_Srinivassane_Nishanth.56985cad20cc696992eb.pdf",
     "static/media/dawn.png": "/portfolio/static/media/dawn.dfdb519721ad4d03abec.png",
-    "static/media/projectPortfolio.png": "/portfolio/static/media/projectPortfolio.b5b736f4610d58b8e999.png",
     "static/media/portrait.jpg": "/portfolio/static/media/portrait.17b2f93332a75d9011ec.jpg",
     "static/media/orvLogo.jpg": "/portfolio/static/media/orvLogo.abc68b98b25e7f9c62ac.jpg",
     "static/media/jetbrains-mono-latin-400-normal.woff": "/portfolio/static/media/jetbrains-mono-latin-400-normal.0fc70aa4dfe4d16d7073.woff",
@@ -36,10 +38,10 @@
     "static/media/jetbrains-mono-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-cyrillic-ext-400-normal.7347c7bfed47f1ef0b25.woff2",
     "index.html": "/portfolio/index.html",
     "main.374a8052.css.map": "/portfolio/static/css/main.374a8052.css.map",
-    "main.f9679128.js.map": "/portfolio/static/js/main.f9679128.js.map"
+    "main.91b3de8e.js.map": "/portfolio/static/js/main.91b3de8e.js.map"
   },
   "entrypoints": [
     "static/css/main.374a8052.css",
-    "static/js/main.f9679128.js"
+    "static/js/main.91b3de8e.js"
   ]
 }
