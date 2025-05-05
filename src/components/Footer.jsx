@@ -16,6 +16,9 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/nishanth-srinivassane-4083a6297/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
                         <img src={require("../images/icons8-linkedin-48.png")} alt="linkedin icon" className={styles.socialIcon} />
                     </a>
+                    <a href={require("../data/CV_Srinivassane_Nishanth.pdf")} className={styles.socialLink} download="CV_Srinivassane_Nishanth.pdf" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../images/icons8-resume-48.png")} alt="cv icon" className={styles.socialIcon} />
+                    </a>
                 </div>
                 <div className={styles.credits}>
                     <p>

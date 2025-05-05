@@ -38,7 +38,7 @@ export const projects = [
     {
         title: 'Application de gestion d\'un aéroport en C',
         description: 'Cette application permet de gérer l\'aéroport de Grenoble. On peut afficher des vols, les passagers, les avions, les compagnies aériennes... On peut également gérer les retards et les annulations.',
-        image: '/images/projet2.jpg',
+        image: require('../images/projectC.png'),
         link: 'https://github.com/yourusername/project2',
         technologies: ['C '],
         skills: ['Réaliser un développement d\'applications ', 'Optimiser des applications (partie recherche algorithmique du projet) ', 'Collaborer au sein d\'une équipe informatique '],
