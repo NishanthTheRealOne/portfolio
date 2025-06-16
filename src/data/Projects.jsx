@@ -4,7 +4,7 @@ export const projects = [
         description: 'Il s\'agit de mon portfolio. Vous êtes dessus !! Bien joué à vous !',
         image: require('../images/projectPortfolio.png'),
         link: 'https://github.com/NishanthTheRealOne/portfolio',
-        technologies: ['HTML ', 'React.js ', 'TailwindCSS '],
+        technologies: ['HTML ', 'React.js '],
         skills: ['Réaliser un développement d\'applications ', 'Conduire un projet '],
         shortDescription: 'Mon portfolio recensant mes différents projets.'
     },
