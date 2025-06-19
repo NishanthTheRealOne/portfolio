@@ -44,3 +44,29 @@ h2 {
     transform: translateY(-2px);
     transition: all 0.2s ease-in-out;
 }
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .contact {
+        gap: 0.5rem;
+    }
+    .credits {
+        text-align: center;
+        font-size: 0.95rem;
+    }
+    .imagesCredits {
+        font-size: 80%;
+    }
+    .socialIcon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
