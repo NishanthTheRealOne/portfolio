@@ -21,6 +21,7 @@ const Header = () => {
                 <div>
                     <a href='#introduction' className={styles.navLink} onClick={handleClick}>Introduction</a>
                     <a href='#projects' className={styles.navLink} onClick={handleClick}>Projets</a>
+                    <a href='#experience' className={styles.navLink} onClick={handleClick}>Expérience</a>
                     <a href='#contact' className={styles.navLink} onClick={handleClick}>Contact</a>
                 </div>
             </nav>
